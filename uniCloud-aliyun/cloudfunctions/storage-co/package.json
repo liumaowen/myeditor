@@ -1,0 +1,6 @@
+{
+  "name": "storage-co",
+  "dependencies": {
+    "uni-id-common": "file:../common/uni-id-common"
+  }
+}

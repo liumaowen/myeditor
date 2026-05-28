@@ -1,0 +1,73 @@
+{
+  "pages": [
+    {
+      "path": "pages/note/list",
+      "style": {
+        "navigationBarTitleText": "我的笔记",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/note/edit",
+      "style": {
+        "navigationBarTitleText": "编辑笔记"
+      }
+    },
+    {
+      "path": "pages/note/detail",
+      "style": {
+        "navigationBarTitleText": "笔记详情"
+      }
+    },
+    {
+      "path": "pages/note/category",
+      "style": {
+        "navigationBarTitleText": "分类管理"
+      }
+    },
+    {
+      "path": "pages/note/version",
+      "style": {
+        "navigationBarTitleText": "版本历史"
+      }
+    },
+    {
+      "path": "pages/note/share",
+      "style": {
+        "navigationBarTitleText": "分享笔记"
+      }
+    },
+    {
+      "path": "pages/share/view",
+      "style": {
+        "navigationBarTitleText": "查看分享笔记"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/note/list",
+        "iconPath": "static/tabbar/yun.png",
+        "selectedIconPath": "static/tabbar/yun1.png",
+        "text": "笔记"
+      },
+      {
+        "pagePath": "pages/note/category",
+        "iconPath": "static/tabbar/fn.png",
+        "selectedIconPath": "static/tabbar/fn1.png",
+        "text": "分类"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
